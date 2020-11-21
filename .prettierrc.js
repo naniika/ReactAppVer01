@@ -1,6 +1,12 @@
 module.exports = {
-  bracketSpacing: false,
-  jsxBracketSameLine: true,
+  // bracketSpacing: false,
+  // jsxBracketSameLine: true,
   singleQuote: true,
-  trailingComma: 'all',
+  // trailingComma: 'all',
+  "extends": [
+    "plugin:prettier/recommended",
+    "prettier/flowtype",
+    "prettier/react",
+    "prettier/standard"
+  ]
 };
